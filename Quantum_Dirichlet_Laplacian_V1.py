@@ -91,9 +91,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_2982.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_plus_1738.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
 
 
@@ -1220,7 +1220,7 @@ Ucenje modela za test.
 Test NLL: 16.628047
 Zavrsno ucenje: svi istorijski prelazi.
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [2, 23, 25, 26, 27, 33, 37]
+NEXT: [2, x, 25, y, 27, z, 37]
 
 CSV: loto7_4720_k91_loto_2982.csv
 Ucenje grafa: t=1 | reg=0.1.
@@ -1232,7 +1232,7 @@ Ucenje modela za test.
 Test NLL: 16.618889
 Zavrsno ucenje: svi istorijski prelazi.
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [1, 3, 4, 12, 15, 20, 26]
+NEXT: [1, x, 4, y, 15, z, 26]
 
 CSV: loto7_4720_k91_loto_plus_1738.csv
 Ucenje grafa: t=1 | reg=0.1.
@@ -1245,7 +1245,7 @@ Ucenje modela za test.
 Test NLL: 16.570112
 Zavrsno ucenje: svi istorijski prelazi.
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [2, 23, 25, 26, 27, 33, 37]
+NEXT: [2, x, 25, y, 27, z, 37]
 PROVERA: isti NEXT za loto7_4720_k91.csv i loto7_4720_k91_loto_plus_1738.csv. CSV sadrzaji su razliciti; razlika grafova=0.620618; razlika amplituda=0.299476.
 """
 
