@@ -62,9 +62,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_2982.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_plus_1738.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
 
 N = 39
@@ -1333,7 +1333,7 @@ Test NLL: 16.547867
 Zavrsno ucenje: svi istorijski prelazi.
 Ucena memorija: tezina poslednjeg kola=0.014897 | korak memorije=0.000001
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [7, 8, 10, 11, 22, 32, 34]
+NEXT: [7, x, 10, y, 22, z, 34]
 
 CSV: loto7_4720_k91_loto_2982.csv
 Ucenje: t=1 | reg=0.1.
@@ -1349,7 +1349,7 @@ Test NLL: 16.547639
 Zavrsno ucenje: svi istorijski prelazi.
 Ucena memorija: tezina poslednjeg kola=0.004580 | korak memorije=0.000001
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [8, 16, 22, 23, 34, 35, 38]
+NEXT: [8, x, 22, y, 34, z, 38]
 
 CSV: loto7_4720_k91_loto_plus_1738.csv
 Ucenje: t=1 | reg=0.1.
@@ -1362,7 +1362,7 @@ Test NLL: 16.608050
 Zavrsno ucenje: svi istorijski prelazi.
 Ucena memorija: tezina poslednjeg kola=0.609072 | korak memorije=0.003272
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [2, 6, 15, 25, 26, 27, 37]
+NEXT: [2, x, 15, y, 26, z, 37]
 """
 
 
